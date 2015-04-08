@@ -63,10 +63,10 @@ h1{
 
 h1.logo,
 h1.logo a {
-	height: 155px;
+	height: 145px;
 	display: block;
 	width: 750px;
-	background: transparent url(/images/t.PNG)repeat-x;
+	background: transparent url(/images/acm_dalian.PNG)repeat-x;
 	margin: 0;
 	padding: 0;
 }
