@@ -107,7 +107,7 @@ ul.main-nav {
 }
 
 ul.main-nav li {
-	float: left;
+	float: right;
 	text-transform: capitalize;
 }
 
