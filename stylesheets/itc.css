@@ -107,7 +107,7 @@ ul.main-nav {
 }
 
 ul.main-nav li {
-	float: left;
+	float: right;
 	text-transform: capitalize;
 }
 
@@ -116,7 +116,7 @@ ul.main-nav li a:visited {
 	font-weight: bold;
 	color: #b4d4e7;
 	display: block;
-	float: left;
+	float: right;
 	padding: 7px;   //reduced from 10px to allow new menu item to fit, 9/15/09, DMR
 }
 
