@@ -1,0 +1,394 @@
+html {
+    height: 100%;
+    margin-bottom: 1px;
+}
+
+body  {
+	color: black;
+	font: 12px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif; 
+	background: url(/images/bg_homeBody2.png;);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+p {
+	padding-right: 40px;
+	margin-top: 0;
+}
+
+ul {
+	margin-top: 0;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #036dab;
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+	color: #036dab;
+}
+
+img.promo-image {
+	display: block;
+}
+
+#wrapper {
+	margin: 20px 0 0 0;
+	padding: 0 0 10px 0;
+	width: 100%;
+	float: left;
+	background: transparent url(/images/wrapper-bg.gif) repeat-y center;
+}
+
+#container {
+	width: 750px;
+	margin: 0 auto 0 auto;
+	background: #ffffff;
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+h1.logo,
+h1.logo a {
+	height: 155px;
+	display: block;
+	width: 740px;
+	background: transparent url(/images/CurrentBanner.jpg) no-repeat top left;
+	margin: 0;
+	padding: 0;
+}
+
+h1.logo a span {
+	display: none;
+}
+
+h2 {
+  clear: both;
+	font-size: 175%;
+}
+
+h2.page-title {
+	border-bottom: 1px solid #339999 ;
+	padding-bottom: 5px;
+	color: #339999;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 125%;
+	font-weight: bold;
+}
+
+.menu-bar {
+	float: left;
+	width: 100%;
+	background:  #FFB500 url(/images/bg_menu2.png) repeat-x top;
+	clear: both;
+}
+
+ul.main-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.main-nav li {
+	float: left;
+	text-transform: capitalize;
+}
+
+ul.main-nav li a:link,
+ul.main-nav li a:visited {
+	font-weight: bold;
+	color: #b4d4e7;
+	display: block;
+	float: left;
+	padding: 7px;   //reduced from 10px to allow new menu item to fit, 9/15/09, DMR
+}
+
+ul.main-nav li a:hover,
+ul.main-nav li a:active {
+	color: #ffffff;
+}
+
+.sub-menu {
+	float: left;
+	width: 100%;
+	background: #FFB500 url(/images/bg_quote2.png) repeat-x bottom left;
+	clear: both;
+}
+
+.sub-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sub-menu ul li {
+	float: left;
+}
+
+.sub-menu ul li a:link,
+.sub-menu ul li a:visited {
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+.sub-menu ul li a:hover,
+.sub-menu ul li a:active {
+
+}
+
+#search-form {
+	float: right;
+	padding: 8px 5px 3px 0;
+}
+
+#search-form form,
+#search-form p {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+#search-form .search-input {
+	width: 120px;
+	border: none;
+	background: #b4d4e7;
+	font: 12px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+}
+
+#search-form .search-button {
+	color: #ffe500;
+	font-weight: bold;
+	background: none;
+	border: none;
+	font: 12px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+}
+
+.quote {
+	background: #FFB500 url(/images/bg_quote2.png) repeat-x bottom left;
+}
+
+.quote p {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #ff5500;
+	font-size: 18px;
+}
+
+.quote p.author {
+	font-size: 14px;
+	color: #8bbe6a;
+	margin-top: 5px;
+}
+
+.main-content {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.main-content table {
+	width: 730px;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+.main-content table td {
+	border-bottom: 1px dotted #cccccc;
+	padding: 5px 5px;
+}
+
+.main-content table td img {
+	display: block;
+}
+
+.content-area {
+	padding: 10px 10px 10px 10px;
+	clear: both;
+}
+
+.sub-content {
+	background: #99ccff;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.sub-item {
+	float: left;
+	width: 250px;
+}
+
+.sub-content .sub-item h4,
+.sub-content .sub-item h4 a {
+	height: 30px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.sub-content .sub-item h4 a span {
+	display: none;
+}
+
+.staff,
+.staff a {
+	background: url(/images/gifs/ir_staff.gif) no-repeat top left;
+	width: 77px;
+}
+
+.forum,
+.forum a {
+	background: url(/images/gifs/ir_forum.gif) no-repeat top left;
+	width: 94px;
+}
+
+.about,
+.about a {
+	background: url(/images/gifs/ir_about.gif) no-repeat top left;
+	width: 88px;
+}
+
+.register,
+.register a {
+	width: 115px;
+	background: url(/images/gifs/ir_register.gif) no-repeat top left;
+}
+
+.sub-content .sub-item p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div#feedback {
+  padding: 10px;
+  text-align: center;
+}
+
+div#feedback a {
+  font-size: 150%;
+}
+
+#footer {
+	clear: both;
+}
+
+#footer p {
+	padding: 10px;
+	color: #666666;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+p img {
+
+}
+
+.col-small {
+  width: 180px;
+  float: left;
+}
+
+.col-half {
+	width: 360px;
+	float: left;
+}
+
+.logo {
+  height: 120px;
+}
+
+#exhibitor-profile {
+  float: right !important;
+  text-align: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.supporter-logo {
+  height: 55px;
+}
+
+.supporter-logo-big {
+  height: 125px;
+}
+
+div.clear {
+  clear: left;
+}
+
+h2.ir-attend {
+	width: 294px;
+	height: 27px;
+	background: url(/images/gifs/ir_attend.gif) no-repeat top left;
+}
+
+h2.ir-papers {
+	width: 323px;
+	height: 27px;
+	background: url(/images/gifs/ir_papers.gif) no-repeat top left;
+}
+
+a.ir-submit {
+	width: 323px;
+	height: 27px;
+	background: url(/images/gifs/ir_submit.gif) no-repeat top left;
+	display: block;
+	margin-bottom: 20px;
+}
+
+h2.ir-attend span,
+h2.ir-papers span,
+a.ir-submit span {
+	display: none;
+}
+
+ul.paper-list {
+	padding-left: 20px;
+}
+
+.supporter-logo {
+  float: right;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+
+
+
+label {
+  display: block;
+  font-size: 125%;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+input.text-field,
+select,
+textarea.text-area {
+  border: 1px solid #999;
+  font-size: 110%;
+  margin-bottom: 10px;
+}
+
+input.text-field {
+  width: 70%;
+}
+
+textarea.text-area {
+  width: 99%;
+}
