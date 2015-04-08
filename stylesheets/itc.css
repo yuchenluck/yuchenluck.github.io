@@ -94,7 +94,7 @@ h3 {
 }
 
 .menu-bar {
-	float: right;
+	float: left;
 	width: 100%;
 	background:  #3A5FCD url(/images/bg_menu2.png) repeat-x top;
 	clear: both;
