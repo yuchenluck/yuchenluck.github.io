@@ -46,7 +46,7 @@ img.promo-image {
 }
 
 #container {
-	width: 750px;
+	width: 1024px;
 	margin: 0 auto 0 auto;
 	background: #ffffff;
 	text-align: left;
@@ -65,7 +65,7 @@ h1.logo,
 h1.logo a {
 	height: 145px;
 	display: block;
-	width: 750px;
+	width: 1024px;
 	background: transparent url(/images/acm_dalian.PNG)repeat-x;
 	margin: 0;
 	padding: 0;
@@ -205,7 +205,7 @@ ul.main-nav li a:active {
 }
 
 .main-content table {
-	width: 730px;
+	width: 1004px;
 	margin: 0;
 	border-collapse: collapse;
 }
