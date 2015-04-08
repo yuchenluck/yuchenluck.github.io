@@ -61,8 +61,8 @@ h1.logo,
 h1.logo a {
 	height: 155px;
 	display: block;
-	width: 740px;
-	background: transparent url(/images/test.PNG)no-repeat top left;
+	width: 750px;
+	background: transparent url(/images/test.PNG)repeat;
 	margin: 0;
 	padding: 0;
 }
